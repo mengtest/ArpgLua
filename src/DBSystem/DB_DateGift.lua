@@ -1,0 +1,43 @@
+-- Filename: DB_Skill.lua
+-- Author: auto-created by XmlToScript tool.
+-- Function: it`s auto-created by XmlToScript tool.
+--ExcelVBA output tools start flag
+module("DB_DateGift", package.seeall)
+--{礼物,物品ID,购买价格(钻）,卖店价格（金）,英雄01,英雄02,英雄03,英雄04,英雄05,英雄06,英雄07,英雄08,英雄09,英雄10,英雄11,英雄12,英雄13,英雄14,英雄15,英雄16,英雄17,英雄18,英雄19,英雄20,英雄21,英雄22,英雄23,英雄24,}
+
+DateGift = {
+	[1] = {["ID"] = 1,["Event_Gift_ItemID"] = 50001,["Event_Gift_BuyPrice"] = 30,["Event_Gift_SellPrice"] = 500,["Event_Gift_Hero1"] = 40,["Event_Gift_Hero2"] = 70,["Event_Gift_Hero3"] = 40,["Event_Gift_Hero4"] = 70,["Event_Gift_Hero5"] = 40,["Event_Gift_Hero6"] = 40,["Event_Gift_Hero7"] = 40,["Event_Gift_Hero8"] = 70,["Event_Gift_Hero9"] = 40,["Event_Gift_Hero10"] = 40,["Event_Gift_Hero11"] = 40,["Event_Gift_Hero12"] = 40,["Event_Gift_Hero13"] = 40,["Event_Gift_Hero14"] = 40,["Event_Gift_Hero15"] = 40,["Event_Gift_Hero16"] = 40,["Event_Gift_Hero17"] = 40,["Event_Gift_Hero18"] = 40,["Event_Gift_Hero19"] = 40,["Event_Gift_Hero20"] = 40,["Event_Gift_Hero21"] = 40,["Event_Gift_Hero22"] = 40,["Event_Gift_Hero23"] = 40,["Event_Gift_Hero24"] = 40,},
+	[2] = {["ID"] = 2,["Event_Gift_ItemID"] = 50002,["Event_Gift_BuyPrice"] = 30,["Event_Gift_SellPrice"] = 500,["Event_Gift_Hero1"] = 40,["Event_Gift_Hero2"] = 40,["Event_Gift_Hero3"] = 40,["Event_Gift_Hero4"] = 40,["Event_Gift_Hero5"] = 40,["Event_Gift_Hero6"] = 70,["Event_Gift_Hero7"] = 70,["Event_Gift_Hero8"] = 40,["Event_Gift_Hero9"] = 40,["Event_Gift_Hero10"] = 70,["Event_Gift_Hero11"] = 40,["Event_Gift_Hero12"] = 40,["Event_Gift_Hero13"] = 40,["Event_Gift_Hero14"] = 40,["Event_Gift_Hero15"] = 40,["Event_Gift_Hero16"] = 40,["Event_Gift_Hero17"] = 40,["Event_Gift_Hero18"] = 40,["Event_Gift_Hero19"] = 40,["Event_Gift_Hero20"] = 40,["Event_Gift_Hero21"] = 40,["Event_Gift_Hero22"] = 40,["Event_Gift_Hero23"] = 40,["Event_Gift_Hero24"] = 40,},
+	[3] = {["ID"] = 3,["Event_Gift_ItemID"] = 50003,["Event_Gift_BuyPrice"] = 30,["Event_Gift_SellPrice"] = 500,["Event_Gift_Hero1"] = 40,["Event_Gift_Hero2"] = 40,["Event_Gift_Hero3"] = 40,["Event_Gift_Hero4"] = 40,["Event_Gift_Hero5"] = 40,["Event_Gift_Hero6"] = 40,["Event_Gift_Hero7"] = 40,["Event_Gift_Hero8"] = 40,["Event_Gift_Hero9"] = 40,["Event_Gift_Hero10"] = 40,["Event_Gift_Hero11"] = 40,["Event_Gift_Hero12"] = 70,["Event_Gift_Hero13"] = 40,["Event_Gift_Hero14"] = 40,["Event_Gift_Hero15"] = 40,["Event_Gift_Hero16"] = 70,["Event_Gift_Hero17"] = 40,["Event_Gift_Hero18"] = 40,["Event_Gift_Hero19"] = 40,["Event_Gift_Hero20"] = 40,["Event_Gift_Hero21"] = 40,["Event_Gift_Hero22"] = 40,["Event_Gift_Hero23"] = 70,["Event_Gift_Hero24"] = 40,},
+	[4] = {["ID"] = 4,["Event_Gift_ItemID"] = 50004,["Event_Gift_BuyPrice"] = 30,["Event_Gift_SellPrice"] = 500,["Event_Gift_Hero1"] = 40,["Event_Gift_Hero2"] = 40,["Event_Gift_Hero3"] = 40,["Event_Gift_Hero4"] = 40,["Event_Gift_Hero5"] = 40,["Event_Gift_Hero6"] = 40,["Event_Gift_Hero7"] = 40,["Event_Gift_Hero8"] = 40,["Event_Gift_Hero9"] = 40,["Event_Gift_Hero10"] = 40,["Event_Gift_Hero11"] = 40,["Event_Gift_Hero12"] = 40,["Event_Gift_Hero13"] = 70,["Event_Gift_Hero14"] = 40,["Event_Gift_Hero15"] = 40,["Event_Gift_Hero16"] = 40,["Event_Gift_Hero17"] = 40,["Event_Gift_Hero18"] = 40,["Event_Gift_Hero19"] = 70,["Event_Gift_Hero20"] = 40,["Event_Gift_Hero21"] = 40,["Event_Gift_Hero22"] = 40,["Event_Gift_Hero23"] = 40,["Event_Gift_Hero24"] = 70,},
+	[5] = {["ID"] = 5,["Event_Gift_ItemID"] = 50005,["Event_Gift_BuyPrice"] = 30,["Event_Gift_SellPrice"] = 500,["Event_Gift_Hero1"] = 40,["Event_Gift_Hero2"] = 40,["Event_Gift_Hero3"] = 40,["Event_Gift_Hero4"] = 40,["Event_Gift_Hero5"] = 40,["Event_Gift_Hero6"] = 40,["Event_Gift_Hero7"] = 40,["Event_Gift_Hero8"] = 40,["Event_Gift_Hero9"] = 40,["Event_Gift_Hero10"] = 40,["Event_Gift_Hero11"] = 40,["Event_Gift_Hero12"] = 40,["Event_Gift_Hero13"] = 40,["Event_Gift_Hero14"] = 70,["Event_Gift_Hero15"] = 40,["Event_Gift_Hero16"] = 40,["Event_Gift_Hero17"] = 40,["Event_Gift_Hero18"] = 70,["Event_Gift_Hero19"] = 40,["Event_Gift_Hero20"] = 40,["Event_Gift_Hero21"] = 40,["Event_Gift_Hero22"] = 70,["Event_Gift_Hero23"] = 40,["Event_Gift_Hero24"] = 40,},
+	[6] = {["ID"] = 6,["Event_Gift_ItemID"] = 50006,["Event_Gift_BuyPrice"] = 60,["Event_Gift_SellPrice"] = 1000,["Event_Gift_Hero1"] = 60,["Event_Gift_Hero2"] = 90,["Event_Gift_Hero3"] = 60,["Event_Gift_Hero4"] = 90,["Event_Gift_Hero5"] = 60,["Event_Gift_Hero6"] = 90,["Event_Gift_Hero7"] = 90,["Event_Gift_Hero8"] = 90,["Event_Gift_Hero9"] = 60,["Event_Gift_Hero10"] = 60,["Event_Gift_Hero11"] = 90,["Event_Gift_Hero12"] = 60,["Event_Gift_Hero13"] = 60,["Event_Gift_Hero14"] = 60,["Event_Gift_Hero15"] = 60,["Event_Gift_Hero16"] = 60,["Event_Gift_Hero17"] = 60,["Event_Gift_Hero18"] = 60,["Event_Gift_Hero19"] = 60,["Event_Gift_Hero20"] = 60,["Event_Gift_Hero21"] = 60,["Event_Gift_Hero22"] = 60,["Event_Gift_Hero23"] = 60,["Event_Gift_Hero24"] = 60,},
+	[7] = {["ID"] = 7,["Event_Gift_ItemID"] = 50007,["Event_Gift_BuyPrice"] = 60,["Event_Gift_SellPrice"] = 1000,["Event_Gift_Hero1"] = 60,["Event_Gift_Hero2"] = 60,["Event_Gift_Hero3"] = 60,["Event_Gift_Hero4"] = 60,["Event_Gift_Hero5"] = 60,["Event_Gift_Hero6"] = 60,["Event_Gift_Hero7"] = 60,["Event_Gift_Hero8"] = 60,["Event_Gift_Hero9"] = 60,["Event_Gift_Hero10"] = 90,["Event_Gift_Hero11"] = 60,["Event_Gift_Hero12"] = 90,["Event_Gift_Hero13"] = 60,["Event_Gift_Hero14"] = 60,["Event_Gift_Hero15"] = 90,["Event_Gift_Hero16"] = 90,["Event_Gift_Hero17"] = 60,["Event_Gift_Hero18"] = 60,["Event_Gift_Hero19"] = 90,["Event_Gift_Hero20"] = 60,["Event_Gift_Hero21"] = 60,["Event_Gift_Hero22"] = 60,["Event_Gift_Hero23"] = 90,["Event_Gift_Hero24"] = 60,},
+	[8] = {["ID"] = 8,["Event_Gift_ItemID"] = 50008,["Event_Gift_BuyPrice"] = 60,["Event_Gift_SellPrice"] = 1000,["Event_Gift_Hero1"] = 60,["Event_Gift_Hero2"] = 60,["Event_Gift_Hero3"] = 60,["Event_Gift_Hero4"] = 60,["Event_Gift_Hero5"] = 60,["Event_Gift_Hero6"] = 60,["Event_Gift_Hero7"] = 60,["Event_Gift_Hero8"] = 60,["Event_Gift_Hero9"] = 60,["Event_Gift_Hero10"] = 60,["Event_Gift_Hero11"] = 60,["Event_Gift_Hero12"] = 60,["Event_Gift_Hero13"] = 90,["Event_Gift_Hero14"] = 90,["Event_Gift_Hero15"] = 60,["Event_Gift_Hero16"] = 60,["Event_Gift_Hero17"] = 90,["Event_Gift_Hero18"] = 90,["Event_Gift_Hero19"] = 60,["Event_Gift_Hero20"] = 60,["Event_Gift_Hero21"] = 60,["Event_Gift_Hero22"] = 90,["Event_Gift_Hero23"] = 60,["Event_Gift_Hero24"] = 90,},
+	[9] = {["ID"] = 9,["Event_Gift_ItemID"] = 50009,["Event_Gift_BuyPrice"] = 100,["Event_Gift_SellPrice"] = 2500,["Event_Gift_Hero1"] = 100,["Event_Gift_Hero2"] = 100,["Event_Gift_Hero3"] = 100,["Event_Gift_Hero4"] = 100,["Event_Gift_Hero5"] = 100,["Event_Gift_Hero6"] = 100,["Event_Gift_Hero7"] = 100,["Event_Gift_Hero8"] = 100,["Event_Gift_Hero9"] = 100,["Event_Gift_Hero10"] = 100,["Event_Gift_Hero11"] = 100,["Event_Gift_Hero12"] = 100,["Event_Gift_Hero13"] = 100,["Event_Gift_Hero14"] = 100,["Event_Gift_Hero15"] = 100,["Event_Gift_Hero16"] = 100,["Event_Gift_Hero17"] = 100,["Event_Gift_Hero18"] = 100,["Event_Gift_Hero19"] = 100,["Event_Gift_Hero20"] = 100,["Event_Gift_Hero21"] = 100,["Event_Gift_Hero22"] = 100,["Event_Gift_Hero23"] = 100,["Event_Gift_Hero24"] = 100,},
+	[10] = {["ID"] = 10,["Event_Gift_ItemID"] = 50010,["Event_Gift_BuyPrice"] = 100,["Event_Gift_SellPrice"] = 2500,["Event_Gift_Hero1"] = 100,["Event_Gift_Hero2"] = 100,["Event_Gift_Hero3"] = 100,["Event_Gift_Hero4"] = 100,["Event_Gift_Hero5"] = 100,["Event_Gift_Hero6"] = 100,["Event_Gift_Hero7"] = 100,["Event_Gift_Hero8"] = 100,["Event_Gift_Hero9"] = 100,["Event_Gift_Hero10"] = 100,["Event_Gift_Hero11"] = 100,["Event_Gift_Hero12"] = 100,["Event_Gift_Hero13"] = 100,["Event_Gift_Hero14"] = 100,["Event_Gift_Hero15"] = 100,["Event_Gift_Hero16"] = 100,["Event_Gift_Hero17"] = 100,["Event_Gift_Hero18"] = 100,["Event_Gift_Hero19"] = 100,["Event_Gift_Hero20"] = 100,["Event_Gift_Hero21"] = 100,["Event_Gift_Hero22"] = 100,["Event_Gift_Hero23"] = 100,["Event_Gift_Hero24"] = 100,},
+}
+
+function getDataById(key_id)
+    local id_data = DateGift[key_id]
+
+    return id_data
+end
+
+function getArrDataByField(fieldName, fieldValue)
+    local arrData = {}
+    for k, v in pairs(DateGift) do
+        if v[fieldName] == fieldValue then
+            arrData[#arrData+1] = v
+        end
+    end
+
+    return arrData
+end
+
+function release()
+    _G["DB_DateGift"] = nil
+    package.loaded["DB_DateGift"] = nil
+    package.loaded["DBSystem/DB_DateGift"] = nil
+end
+--ExcelVBA output tools end flag
