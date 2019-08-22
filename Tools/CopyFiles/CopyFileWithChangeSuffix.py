@@ -2,21 +2,36 @@
 # 指定文件夹（递归）所有指定后缀文件，copy
 
 import sys,os
-import shutil
 
-SRC_FILE_SUFFIX = r'cs'
-DST_FILE_SUFFIX = r'js'
-SRC_PATH = r'Resturant/Client/MProject/Assets/Scripts/Match3'
-DST_PATH = r'Match3WithCSharp/Match3'
+SRC_FILE_SUFFIX_1 = r'cs'
+SRC_FILE_SUFFIX_2 = r''
+DST_FILE_SUFFIX_1 = r'js'
+DST_FILE_SUFFIX_2 = r''
+
+SRC_PATH = r'Resturant/Client/MProject/Assets/Scripts'
+DST_PATH = r'Match3_js/Scripts'
 
 
 def change_file_name(path):
-	path_arr = path.split('.')
-	if path_arr[-1] == SRC_FILE_SUFFIX:
-	    dst_file = '%s.%s'%(path_arr[0], DST_FILE_SUFFIX)
-	    return dst_file
-	else:
-		return ""
+    path_arr = path.split('.')
+    dst_file = ''
+    if path_arr[-1] == SRC_FILE_SUFFIX_1:
+        dst_file = '%s.%s'%(path_arr[0], DST_FILE_SUFFIX_1)
+    elif path_arr[-1] == SRC_FILE_SUFFIX_2:
+        dst_file = '%s.%s'%(path_arr[0], DST_FILE_SUFFIX_2)
+
+    return dst_file
+
+def copyFile(temp_path, dst_path):
+    theFile = file(temp_path, "r+")
+    fp = open(dst_path, 'w+')
+    cc = ''
+    for s in theFile.readlines():
+        cc = cc + s
+
+    fp.write(cc)
+    fp.close()
+    
 
 
 def traverse(path,dstpath):
@@ -32,7 +47,7 @@ def traverse(path,dstpath):
             if dst_file != "":
 	            dst_path = os.path.join(dstpath, dst_file)
 	            print('文件：%s'%temp_path)
-	            shutil.copyfile(temp_path, dst_path)
+	            copyFile(temp_path, dst_path)
         else:
             newDstpath = os.path.join(dstpath, temp)
             os.mkdir(newDstpath)
